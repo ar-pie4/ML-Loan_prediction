@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Prediction</title>
+</head>
+<body>
+    <form action = "/predict/" method="post">
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female<br>
+
+        <label for="Married">Married</label>
+        <input type="radio" name="Married" value="Yes">yes
+        <input type="radio" name="Married" value="No">no<br>
+
+        <label for="Education">Education</label>
+        <input type="radio" name="Education" value="Graduate">yes
+        <input type="radio" name="Education" value="Not Graduate">no<br>
+
+        <label for="Self_Employed">Self_Employed</label>
+        <input type="radio" name="Self_Employed" value="Yes">yes
+        <input type="radio" name="Self_Employed" value="No">no<br>
+
+        <label for="ApplicantIncome">ApplicantIncome</label>
+        <input type="text" id="ApplicantIncome" name="ApplicantIncome"><br>
+
+        <label for="CoapplicantIncome">CoapplicantIncome</label>
+        <input type="text" id="CoapplicantIncome" name="CoapplicantIncome"><br>
+
+        <label for="LoanAmount">LoanAmount</label>
+        <input type="text" id="LoanAmount" name="LoanAmount"><br>
+
+        <label for="Loan_Amount_Term">Loan_Amount_Term</label>
+        <input type="text" id="Loan_Amount_Term" name="Loan_Amount_Term"><br>
+
+        <label for="Credit_History">Credit_History</label>
+        <input type="radio" name="Credit_History" value="Yes">yes
+        <input type="radio" name="Credit_History" value="No">no<br>
+
+        <label for="Property_Area">Property_Area</label>
+        <input type="radio" name="Property_Area" value="Urban">Urban
+        <input type="radio" name="Property_Area" value="Rural">Rural
+        <input type="radio" name="Property_Area" value="Semiurban">Semiurban<br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+</body>
+</html>
